@@ -16,10 +16,9 @@ function Nav() {
 
   var link = {
     paddingLeft: "20px",
-    paddingTop: "5px",
+    paddingTop: "50px",
     paddingBottom: "5px",
     paddingRight: "20px",
-    border: "2px solid lightgrey"
   };
   var search = {
     paddingRight: "15px",
@@ -39,10 +38,10 @@ function Nav() {
   return (
     <div style={myStyledNav}>
       <div style={links}>
-        <div>
+        <div style={inside}>
           <Link to="/"><span style={link}>Home</span></Link>
         </div>
-        <div>
+        <div style={inside}>
           <Link to="/newticket"><span style={link}> Create Ticket</span></Link>
         </div>
       </div>
