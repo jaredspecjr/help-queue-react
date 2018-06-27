@@ -1,35 +1,35 @@
-import React from "react";
+import React from 'react';
 
-function Nav(props) {
+function Nav() {
   var myStyledNav = {
     display: 'flex',
     justifyContent: 'space-between',
     alignItems: 'center'
-  }
+  };
 
   var links = {
     display: 'flex',
-  }
+  };
 
   var link = {
-    paddingLeft: "20px",
-    paddingRight: "20px",
+    paddingLeft: '20px',
+    paddingRight: '20px',
     border: '2px solid lightgrey'
-  }
+  };
   var search = {
-    paddingRight: "15px",
-    display: "inline-block",
+    paddingRight: '15px',
+    display: 'inline-block',
 
-  }
+  };
   var inside = {
-    fontSize: "20px",
-    borderRadius: "20px",
-    border: "3px solid lightblue",
-    paddingLeft: "20px",
-    paddingRight: "20px",
-    paddingBottom: "5px",
-    paddingTop: "5px"
-  }
+    fontSize: '20px',
+    borderRadius: '20px',
+    border: '3px solid lightblue',
+    paddingLeft: '20px',
+    paddingRight: '20px',
+    paddingBottom: '5px',
+    paddingTop: '5px'
+  };
 
   return (
     <div style={myStyledNav}>
