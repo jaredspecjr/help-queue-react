@@ -3,10 +3,16 @@ import PropTypes from "prop-types";
 
 function Ticket(props){
   return (
-    <div>
+    <div className="background">
       <h3>{props.location} - {props.names}</h3>
       <p><em>{props.issue}</em></p>
       <hr/>
+      <style jsx>{`
+          .background {
+            background-color:green;
+            color:#a3c1ad;
+          }
+        `}</style>
     </div>
   );
 }

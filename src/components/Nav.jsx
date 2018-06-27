@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 function Nav() {
   var myStyledNav = {
@@ -9,10 +10,14 @@ function Nav() {
 
   var links = {
     display: "flex",
+
+
   };
 
   var link = {
     paddingLeft: "20px",
+    paddingTop: "5px",
+    paddingBottom: "5px",
     paddingRight: "20px",
     border: "2px solid lightgrey"
   };
@@ -34,11 +39,11 @@ function Nav() {
   return (
     <div style={myStyledNav}>
       <div style={links}>
-        <div style={link}>
-          <p>Home</p>
+        <div>
+          <Link to="/"><span style={link}>Home</span></Link>
         </div>
-        <div style={link}>
-          <p>Notifications</p>
+        <div>
+          <Link to="/newticket"><span style={link}> Create Ticket</span></Link>
         </div>
         <div style={link}>
           <p>Messages</p>
