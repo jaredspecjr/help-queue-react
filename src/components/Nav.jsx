@@ -45,9 +45,6 @@ function Nav() {
         <div>
           <Link to="/newticket"><span style={link}> Create Ticket</span></Link>
         </div>
-        <div style={link}>
-          <p>Messages</p>
-        </div>
       </div>
       <div>
         <div style={search}>
